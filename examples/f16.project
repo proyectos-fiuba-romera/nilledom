@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XmlObjectSerializer>
+    <object class="ar.fiuba.trabajoprofesional.mdauml.persistence.ProjectPersistence" id="1143">
+        <class id="1144" name="ar.fiuba.trabajoprofesional.mdauml.persistence.ProjectPersistence"/>
+        <field modifiers="public" name="modelPath" type="java.lang.String">
+            <string class="java.lang.String">/home/ferromera/f16.model</string>
+        </field>
+        <field modifiers="public" name="viewPath" type="java.lang.String">
+            <string class="java.lang.String">/home/ferromera/f16.view</string>
+        </field>
+    </object>
+</XmlObjectSerializer>

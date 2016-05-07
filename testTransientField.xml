@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XmlObjectSerializer>
+    <object class="test.mdauml.persistence.classes.TransientField" id="0">
+        <class id="1" name="test.mdauml.persistence.classes.TransientField"/>
+    </object>
+</XmlObjectSerializer>

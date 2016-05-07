@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/com/github/adedayo/intellij/sdk/forms_rt/142.1/forms_rt-142.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/4.0/junit-4.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jmock/jmock/1.1.0/jmock-1.1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jmock/jmock-cglib/1.1.0/jmock-cglib-1.1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/cglib/cglib-full/2.0.2/cglib-full-2.0.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/asm/asm/2.2.1/asm-2.2.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/batik/batik-awt-util/1.6-1/batik-awt-util-1.6-1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/batik/batik-util/1.6-1/batik-util-1.6-1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/batik/batik-gui-util/1.6-1/batik-gui-util-1.6-1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/batik/batik-ext/1.6-1/batik-ext-1.6-1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/xml-apis/xmlParserAPIs/2.0.2/xmlParserAPIs-2.0.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/batik/batik-svggen/1.6-1/batik-svggen-1.6-1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/batik/batik-gvt/1.6-1/batik-gvt-1.6-1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/batik/batik-svg-dom/1.6-1/batik-svg-dom-1.6-1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/batik/batik-dom/1.6-1/batik-dom-1.6-1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/batik/batik-css/1.6-1/batik-css-1.6-1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/batik/batik-xml/1.6-1/batik-xml-1.6-1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/xerces/xercesImpl/2.5.0/xercesImpl-2.5.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/batik/batik-parser/1.6-1/batik-parser-1.6-1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"/>
+</classpath>

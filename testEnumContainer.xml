@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XmlObjectSerializer>
+    <object class="test.mdauml.persistence.classes.EnumContainer" id="5">
+        <class id="6" name="test.mdauml.persistence.classes.EnumContainer"/>
+        <field modifiers="private" name="type" type="com.nilledom.model.StepType">
+            <enum>REGULAR</enum>
+        </field>
+    </object>
+</XmlObjectSerializer>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XmlObjectSerializer>
+    <object class="test.mdauml.persistence.classes.InnerClass" id="8">
+        <class id="9" name="test.mdauml.persistence.classes.InnerClass"/>
+        <field modifiers="private" name="children" type="java.util.List">
+            <list class="java.util.ArrayList" id="10">
+                <object class="test.mdauml.persistence.classes.InnerClass::TheInner" id="11">
+                    <containingObject>
+                        <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                    </containingObject>
+                    <class id="12" name="test.mdauml.persistence.classes.InnerClass::TheInner"/>
+                    <field modifiers="private" name="something" type="java.lang.String">
+                        <string class="java.lang.String">these</string>
+                    </field>
+                    <field modifiers="final" name="this::0" type="test.mdauml.persistence.classes.InnerClass">
+                        <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                    </field>
+                </object>
+                <object class="test.mdauml.persistence.classes.InnerClass::TheInner" id="13">
+                    <containingObject>
+                        <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                    </containingObject>
+                    <class id_ref="12" name="test.mdauml.persistence.classes.InnerClass::TheInner"/>
+                    <field modifiers="private" name="something" type="java.lang.String">
+                        <string class="java.lang.String">are</string>
+                    </field>
+                    <field modifiers="final" name="this::0" type="test.mdauml.persistence.classes.InnerClass">
+                        <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                    </field>
+                </object>
+                <object class="test.mdauml.persistence.classes.InnerClass::TheInner" id="14">
+                    <containingObject>
+                        <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                    </containingObject>
+                    <class id_ref="12" name="test.mdauml.persistence.classes.InnerClass::TheInner"/>
+                    <field modifiers="private" name="something" type="java.lang.String">
+                        <string class="java.lang.String">my</string>
+                    </field>
+                    <field modifiers="final" name="this::0" type="test.mdauml.persistence.classes.InnerClass">
+                        <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                    </field>
+                </object>
+                <object class="test.mdauml.persistence.classes.InnerClass::TheInner" id="15">
+                    <containingObject>
+                        <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                    </containingObject>
+                    <class id_ref="12" name="test.mdauml.persistence.classes.InnerClass::TheInner"/>
+                    <field modifiers="private" name="something" type="java.lang.String">
+                        <string class="java.lang.String">children</string>
+                    </field>
+                    <field modifiers="final" name="this::0" type="test.mdauml.persistence.classes.InnerClass">
+                        <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                    </field>
+                </object>
+            </list>
+        </field>
+        <field modifiers="" name="innerWithoutConstructor" type="test.mdauml.persistence.classes.InnerClass::InnerWithoutConstructor">
+            <object class="test.mdauml.persistence.classes.InnerClass::InnerWithoutConstructor" id="16">
+                <containingObject>
+                    <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                </containingObject>
+                <class id="17" name="test.mdauml.persistence.classes.InnerClass::InnerWithoutConstructor"/>
+                <field modifiers="final" name="this::0" type="test.mdauml.persistence.classes.InnerClass">
+                    <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                </field>
+            </object>
+        </field>
+        <field modifiers="" name="privateInner" type="test.mdauml.persistence.classes.InnerClass::PrivateInner">
+            <object class="test.mdauml.persistence.classes.InnerClass::PrivateInner" id="18">
+                <containingObject>
+                    <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                </containingObject>
+                <class id="19" name="test.mdauml.persistence.classes.InnerClass::PrivateInner"/>
+                <field modifiers="final" name="this::0" type="test.mdauml.persistence.classes.InnerClass">
+                    <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                </field>
+            </object>
+        </field>
+        <field modifiers="" name="staticInner" type="test.mdauml.persistence.classes.InnerClass::StaticInner">
+            <object class="test.mdauml.persistence.classes.InnerClass::StaticInner" id="20">
+                <class id="21" name="test.mdauml.persistence.classes.InnerClass::StaticInner"/>
+            </object>
+        </field>
+        <field modifiers="" name="staticPrivateInner" type="test.mdauml.persistence.classes.InnerClass::StaticPrivateInner">
+            <object class="test.mdauml.persistence.classes.InnerClass::StaticPrivateInner" id="22">
+                <class id="23" name="test.mdauml.persistence.classes.InnerClass::StaticPrivateInner"/>
+            </object>
+        </field>
+        <field modifiers="" name="abstractInner" type="test.mdauml.persistence.classes.InnerClass::AbstractInner">
+            <object class="test.mdauml.persistence.classes.InnerClass::1" id="24">
+                <containingObject>
+                    <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                </containingObject>
+                <class id="25" name="test.mdauml.persistence.classes.InnerClass::1"/>
+                <parent class="test.mdauml.persistence.classes.InnerClass::AbstractInner">
+                    <class id="26" name="test.mdauml.persistence.classes.InnerClass::AbstractInner"/>
+                    <field modifiers="protected" name="innerAbstractInner" type="test.mdauml.persistence.classes.InnerClass::AbstractInner::InnerAbstractInner">
+                        <object class="test.mdauml.persistence.classes.InnerClass::1::1" id="27">
+                            <containingObject>
+                                <object class="test.mdauml.persistence.classes.InnerClass::1" id_ref="24">
+                                    <containingObject>
+                                        <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                                    </containingObject>
+                                </object>
+                            </containingObject>
+                            <class id="28" name="test.mdauml.persistence.classes.InnerClass::1::1"/>
+                            <parent class="test.mdauml.persistence.classes.InnerClass::AbstractInner::InnerAbstractInner">
+                                <class id="29" name="test.mdauml.persistence.classes.InnerClass::AbstractInner::InnerAbstractInner"/>
+                                <field modifiers="final" name="this::1" type="test.mdauml.persistence.classes.InnerClass::AbstractInner">
+                                    <object class="test.mdauml.persistence.classes.InnerClass::1" id_ref="24">
+                                        <containingObject>
+                                            <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                                        </containingObject>
+                                    </object>
+                                </field>
+                            </parent>
+                            <field modifiers="final" name="this::1" type="test.mdauml.persistence.classes.InnerClass::1">
+                                <object class="test.mdauml.persistence.classes.InnerClass::1" id_ref="24">
+                                    <containingObject>
+                                        <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                                    </containingObject>
+                                </object>
+                            </field>
+                        </object>
+                    </field>
+                    <field modifiers="final" name="this::0" type="test.mdauml.persistence.classes.InnerClass">
+                        <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                    </field>
+                </parent>
+                <field modifiers="final" name="this::0" type="test.mdauml.persistence.classes.InnerClass">
+                    <object class="test.mdauml.persistence.classes.InnerClass" id_ref="8"/>
+                </field>
+            </object>
+        </field>
+    </object>
+</XmlObjectSerializer>

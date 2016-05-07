@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XmlObjectSerializer>
+    <object class="test.mdauml.persistence.classes.Primitives" id="7">
+        <class id="8" name="test.mdauml.persistence.classes.Primitives"/>
+        <field modifiers="" name="sh" type="short">
+            <short>5</short>
+        </field>
+        <field modifiers="" name="i" type="int">
+            <int>546</int>
+        </field>
+        <field modifiers="" name="l" type="long">
+            <long>123456789</long>
+        </field>
+        <field modifiers="" name="b" type="byte">
+            <byte>31</byte>
+        </field>
+        <field modifiers="" name="c" type="char">
+            <char>c</char>
+        </field>
+        <field modifiers="" name="f" type="float">
+            <float>2.346E-4</float>
+        </field>
+        <field modifiers="" name="d" type="double">
+            <double>12.235464</double>
+        </field>
+        <field modifiers="" name="tr" type="boolean">
+            <boolean>true</boolean>
+        </field>
+        <field modifiers="" name="fa" type="boolean">
+            <boolean>false</boolean>
+        </field>
+    </object>
+</XmlObjectSerializer>

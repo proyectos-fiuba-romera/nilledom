@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XmlObjectSerializer>
+    <string class="java.lang.String">Hello</string>
+    <string class="java.lang.String">World</string>
+    <string class="java.lang.String"/>
+</XmlObjectSerializer>

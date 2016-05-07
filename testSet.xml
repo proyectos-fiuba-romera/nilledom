@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XmlObjectSerializer>
+    <object class="test.mdauml.persistence.classes.SetClass" id="0">
+        <class id="1" name="test.mdauml.persistence.classes.SetClass"/>
+        <field modifiers="" name="set" type="java.util.Set">
+            <set class="java.util.HashSet" id="2">
+                <string class="java.lang.String">a</string>
+                <string class="java.lang.String">set</string>
+                <string class="java.lang.String">this</string>
+                <string class="java.lang.String">is</string>
+            </set>
+        </field>
+    </object>
+</XmlObjectSerializer>

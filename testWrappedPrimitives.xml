@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XmlObjectSerializer>
+    <object class="test.mdauml.persistence.classes.WrappedPrimitives" id="2">
+        <class id="3" name="test.mdauml.persistence.classes.WrappedPrimitives"/>
+        <field modifiers="" name="sh" type="java.lang.Short">
+            <number class="java.lang.Short">5</number>
+        </field>
+        <field modifiers="" name="i" type="java.lang.Integer">
+            <number class="java.lang.Integer">546</number>
+        </field>
+        <field modifiers="" name="l" type="java.lang.Long">
+            <number class="java.lang.Long">123456789</number>
+        </field>
+        <field modifiers="" name="b" type="java.lang.Byte">
+            <number class="java.lang.Byte">31</number>
+        </field>
+        <field modifiers="" name="c" type="java.lang.Character">
+            <character class="java.lang.Character">c</character>
+        </field>
+        <field modifiers="" name="f" type="java.lang.Float">
+            <number class="java.lang.Float">2.346E-4</number>
+        </field>
+        <field modifiers="" name="d" type="java.lang.Double">
+            <number class="java.lang.Double">12.235464</number>
+        </field>
+        <field modifiers="" name="tr" type="java.lang.Boolean">
+            <boolean-obj class="java.lang.Boolean">true</boolean-obj>
+        </field>
+        <field modifiers="" name="fa" type="java.lang.Boolean">
+            <boolean-obj class="java.lang.Boolean">false</boolean-obj>
+        </field>
+    </object>
+</XmlObjectSerializer>

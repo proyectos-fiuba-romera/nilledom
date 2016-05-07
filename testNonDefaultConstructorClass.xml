@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XmlObjectSerializer>
+    <object class="test.mdauml.persistence.classes.NonDefaultConstructorClass" id="0">
+        <class id="1" name="test.mdauml.persistence.classes.NonDefaultConstructorClass"/>
+        <field modifiers="private" name="value" type="java.lang.Integer">
+            <number class="java.lang.Integer">5</number>
+        </field>
+        <field modifiers="private" name="i" type="int">
+            <int>2</int>
+        </field>
+        <field modifiers="private" name="ia" type="[I">
+            <array length="2" type="int">
+                <int>1</int>
+                <int>2</int>
+            </array>
+        </field>
+        <field modifiers="private" name="sa" type="[Ljava.lang.String;">
+            <array length="2" type="java.lang.String">
+                <string>a</string>
+                <string>b</string>
+            </array>
+        </field>
+        <field modifiers="private" name="s" type="java.lang.String">
+            <string class="java.lang.String">hola</string>
+        </field>
+        <field modifiers="private" name="l" type="java.util.List">
+            <list class="java.util.ArrayList" id="2"/>
+        </field>
+    </object>
+</XmlObjectSerializer>
