@@ -245,9 +245,11 @@ public class ApplicationCommandDispatcher implements AppCommandListener {
             appState.setCurrentFile(currentFile);
 
         } catch (ProjectSerializerException e) {
+            e.printStackTrace();
             JOptionPane.showMessageDialog(getShellComponent(), e.getMessage(),
                     Msg.get("error.loadproject.title"), JOptionPane.ERROR_MESSAGE);
         } catch (ObjectSerializerException e) {
+            e.printStackTrace();
             JOptionPane.showMessageDialog(getShellComponent(), e.getMessage(),
                     Msg.get("error.loadproject.title"), JOptionPane.ERROR_MESSAGE);
         }

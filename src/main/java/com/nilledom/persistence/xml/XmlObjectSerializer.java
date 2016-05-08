@@ -24,6 +24,7 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.lang.reflect.*;
 import java.math.BigDecimal;
@@ -539,9 +540,11 @@ public class XmlObjectSerializer implements ObjectSerializer{
         transformer.setOutputProperty(OutputKeys.INDENT, "yes");
         transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
         DOMSource source = new DOMSource(doc);
-        StreamResult result = new StreamResult(new FileWriter(file, false));
+        FileOutputStream fos = new FileOutputStream(file,false);
+        StreamResult result = new StreamResult(fos);
         transformer.transform(source, result);
     }
+
 
 
 
