@@ -124,6 +124,9 @@
 							<mainClass>com.nilledom.Main</mainClass>
 							<addClasspath>true</addClasspath>
 						</manifest>
+						<manifestEntries>
+           					 <SplashScreen-Image>splash.png</SplashScreen-Image>
+         				 </manifestEntries>
 					</archive>
 					<descriptorRefs>
 						<descriptorRef>bin</descriptorRef>
