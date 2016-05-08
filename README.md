@@ -14,10 +14,10 @@ Asegurate de tener instalado [Java JDK 1.8](http://www.oracle.com/technetwork/ja
 ```sh
 $ git clone https://github.com/proyectos-fiuba-romera/nilledom.git
 $ cd nilledom
-$ mvn clean package
+$ mvn clean compile assembly:single
 ``` 
 
-En la carpeta /nilledom/target encontrara el archivo nilledom-0.0.1. 
+En la carpeta /nilledom/target encontrara el archivo nilledom-0.0.1-jar-with-dependencies 
 Al ejecutarlo la apliacion estara corriendo.
 
 
